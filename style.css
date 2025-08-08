@@ -1,0 +1,73 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f8fb;
+  margin: 0;
+  padding: 0;
+  background-image: url("medicine.jpg"); width: ;
+  background-repeat: no-repeat;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+  padding: 30px;
+  background: #ffffff;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #2b6777;
+}
+
+.medicine-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 30px;
+  justify-content: center;
+}
+
+.medicine-form input, .medicine-form button {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.medicine-form input {
+  flex: 1;
+  min-width: 180px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.medicine-form button {
+  background-color: #52ab98;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.medicine-form button:hover {
+  background-color: #3e8e7e;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table th, table td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+table th {
+  background-color: #e5f1f3;
+  color: #333;
+}
